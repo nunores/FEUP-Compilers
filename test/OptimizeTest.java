@@ -20,13 +20,13 @@ import pt.up.fe.specs.util.SpecsIo;
 
 public class OptimizeTest {
 
-    /*@Test
+    @Test
     public void testHelloWorld() {
         OllirResult result = TestUtils.optimize(SpecsIo.getResource("fixtures/public/HelloWorld.jmm"));
         TestUtils.noErrors(result.getReports());
     }
 
-    /*@Test
+    @Test
     public void testSimple() {
         OllirResult result = TestUtils.optimize(SpecsIo.getResource("fixtures/public/Simple.jmm"));
         TestUtils.noErrors(result.getReports());
@@ -48,5 +48,5 @@ public class OptimizeTest {
     public void testFindMaximum() {
         OllirResult result = TestUtils.optimize(SpecsIo.getResource("fixtures/public/FindMaximum.jmm"));
         TestUtils.noErrors(result.getReports());
-    }*/
+    }
 }
