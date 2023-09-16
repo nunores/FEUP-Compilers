@@ -1,13 +1,4 @@
 # COMPILERS PROJECT
-### GROUP: 4D
-- Diogo André Barbosa Nunes, NR1: 201808546, GRADE1: 16, CONTRIBUTION1: 25%
-- João Miguel Gomes Gonçalves, NR2: 201806796, GRADE2: 16, CONTRIBUTION2: 25%
-- Marina Tostões Fernandes Leitão Dias, NR3: 201806787, GRADE3: 16, CONTRIBUTION3: 25%
-- Nuno Filipe Ferreira de Sousa Resende, NR4: 201806825, GRADE4: 16, CONTRIBUTION4: 25%
-
-**GLOBAL Grade of the project: 16**
-We believe that this project easily reflects the work that was put into by our team. Although we are missing many optimizations, we made sure to implement all the necessary features, going through each checkpoint throughly.
-
 **SUMMARY:**
 
 The objective of this project was to implement a tool that would essentially compile a simplified java class definition into bytecodes so that it would be possible to run it and produce the expected results, as the original javac would.
@@ -59,24 +50,6 @@ The OLLIR code is being successfully being generated, with all the required impl
 We accomplished this generation by having done our own visitor, which works simillarly to a PreOrder visitor. With this tool, we traverse the previously generated tree and let each function handle the node associated with it (like the semantic analysis). This way, a large string is consecutively created and being written to by those functions, which results in the OLLIR code.
 
 Jasmin is being succesfully generated from the OLLIR code, with only the increment optimization done (iinc). We tried to make use of all necessary functions already implemented in the libraries given, to clean our code and to make it readable. We utilized a loop through all the methods, generating the code depending on the instruction type.
-
-**TASK DISTRIBUTION:**
-
-We tried to distribute the tasks evenly during the project's development.
-
-CHECKPOINT 1:
-    - In this checkpoint we worked simultaneously, recurring to the Visual Studio's Live Share extension, implementing the needed features all together.
-
-CHECKPOINT 2:
-    - In this checkpoint, we divided the tasks in 3 parts:
-        - Symbol Table and Semantic Analysis - João Gonçalves and Nuno Resende
-        - Generation of OLLIR code from the AST - João Gonçalves, Nuno Resende and Diogo Nunes
-        - Generation of Jasmin code: Marina Dias and Diogo Nunes
-
-CHECKPOINT 3:
-    - This checkpoint required us to treat the whiles, ifs and arrays, which we divided 2 ways:
-        - Corresponding OLLIR changes - João Gonçalves and Nuno Resende
-        - Corresponding Jasmin changes - Diogo Nunes and Marina Dias
 
 **PROS:**
 
